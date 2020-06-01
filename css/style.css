@@ -59,3 +59,19 @@ h1 {
     display: block;
     width: 95%;
 }
+
+@media (max-width: 600px) {
+    body {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 15vh 30vh 4fr 15vh;
+        grid-template-areas: 
+        "hd hd hd hd"
+        "sd sd sd sd"
+        "main main main main"
+        "ft ft ft ft";
+    }
+    .blogposts {
+        justify-content: center;
+    }
+}
