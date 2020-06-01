@@ -1,0 +1,55 @@
+.box {
+    border: solid red 1px;
+    margin: 10px;
+}
+
+body {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 15vh 4fr 15vh;
+    grid-template-areas: 
+    "hd hd hd hd"
+    "sd main main main"
+    "ft ft ft ft";
+}
+
+header {
+    grid-area: hd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 10vh; */
+}
+
+.sidebar {
+    grid-area: sd;
+}
+
+.content {
+    grid-area: main;
+}
+
+footer {
+    grid-area: ft;
+    display: flex;
+}
+
+.blogposts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.blogpost {
+    width: 40vh;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
+    display: block;
+    width: 100%;
+}
