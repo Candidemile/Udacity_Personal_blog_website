@@ -45,7 +45,13 @@ header {
 }
 
 .sidebar > .box {
-    padding: 3vh;
+    padding: 2vh 5vh;
+}
+
+.sidebar > .box:hover {
+    background-color: #E9C46A;
+    color: #264653;
+    border-radius: 1vh 6vh;
 }
 
 /* CONTENT */
@@ -130,13 +136,14 @@ h3 {
         "ft ft ft ft";
     }
     .blogposts {
+        flex-direction: column;
         justify-content: center;
     }
 }
 
-@media (orientation: landscape) {
+/* @media (orientation: landscape) {
     img {
         max-width: auto;
         height: 50%;
     }
-}
+} */
