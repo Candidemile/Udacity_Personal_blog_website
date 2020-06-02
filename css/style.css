@@ -30,7 +30,7 @@ header {
     background-color: #003049;
     grid-area: hd;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     /* height: 10vh; */
 }
@@ -47,11 +47,14 @@ header * {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    font-size: 1.2rem;
 }
 
 .sidebar > .box {
     padding: 1vh 5vh;
     margin: 1vh;
+    margin-bottom: 5vh;
+    text-align: center;
 }
 
 .sidebar > .box:hover {
@@ -103,9 +106,13 @@ header * {
 
 .content h1 {
     padding: 1vh;
-    border: 5px #003049 solid;
-    border-radius: 30%;
+    border: 5px #F77F00 solid;
+    border-radius: 90px;
     background-color: #F77F00;
+}
+
+.content h3 {
+    text-align: center;
 }
 
 .content img {
@@ -142,10 +149,9 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
 }
 
-footer * {
+footer h1 {
     margin: 1vh;
 }
 
@@ -166,6 +172,9 @@ footer * {
         width: 90%;
         font-size: 1.5rem;
     }
+    .sidebar {
+        font-size: 1.5rem;
+    }
 
     header {
         justify-content: center;
@@ -179,6 +188,9 @@ footer * {
 
 @media (orientation: landscape) and (max-width: 900px) {
     .content * {
+        font-size: 1rem;
+    }
+    .sidebar h3{
         font-size: 1rem;
     }
 }
