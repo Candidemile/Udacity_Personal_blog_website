@@ -8,7 +8,7 @@ body {
     font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
     background-color: #003049;
     display: grid;
-    grid-template-columns: minmax(30vh, auto) repeat(3, 1fr);
+    grid-template-columns: 30vh repeat(3, 1fr);
     grid-template-rows: minmax(auto, 15vh) minmax(4fr, auto) minmax(auto, 15vh);
     grid-template-areas: 
     "hd hd hd hd"
@@ -47,13 +47,11 @@ header * {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    text-align: center;
 }
 
 .sidebar > .box {
     padding: 1vh 5vh;
     margin: 1vh;
-    margin-bottom: 5vh;
 }
 
 .sidebar > .box:hover {
@@ -105,13 +103,9 @@ header * {
 
 .content h1 {
     padding: 1vh;
-    border: 5px #F77F00 solid;
-    border-radius: 90px;
+    border: 5px #003049 solid;
+    border-radius: 30%;
     background-color: #F77F00;
-}
-
-.content h3 {
-    text-align: center;
 }
 
 .content img {
