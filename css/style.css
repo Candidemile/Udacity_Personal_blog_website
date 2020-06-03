@@ -5,7 +5,8 @@
 
 /* MAIN SETTINGS */
 body {
-    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    font-family: 'Armata', sans-serif;
+    font-size: calc(12px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
     background-color: #003049;
     display: grid;
     grid-template-columns: 30vh repeat(3, 1fr);
@@ -112,6 +113,7 @@ header * {
 }
 
 .content h3 {
+    font-weight: bold;
     text-align: center;
 }
 
@@ -123,7 +125,7 @@ header * {
 }
 
 .content * {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .button {
@@ -180,9 +182,9 @@ footer h1 {
     .content h3 a {
         font-size: 1rem;
     }
-    
+
     .sidebar {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     header {
@@ -197,9 +199,9 @@ footer h1 {
 
 @media (orientation: landscape) and (max-width: 900px) {
     .content * {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     .sidebar h3{
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 }
