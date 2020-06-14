@@ -85,6 +85,16 @@ header * {
     margin: 0% 0% 3% 0%;
 }
 
+.content figure {
+    width: 40vw;
+    border-radius: 50px;
+    margin: 0% 0% 3% 0%;
+}
+
+.content figcaption {
+    text-align: center;
+}
+
 .content h3 {
     text-decoration: underline;
 }
