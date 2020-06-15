@@ -61,7 +61,7 @@ body {
     .content * {
         font-size: 0.8rem;
     }
-    .sidebar h3 {
-        font-size: 0.8rem;
+    .sidebar * {
+        font-size: 0.6rem;
     }
 }
