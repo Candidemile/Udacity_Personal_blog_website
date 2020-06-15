@@ -109,8 +109,32 @@ header * {
     font-weight: 200;
 }
 
-.flip {
+.content .flip {
     transform: scaleX(-1);
+}
+
+.content .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    grid-column: span 2;
+}
+
+.content .info * {
+    align-self: center;
+    margin-top: 0;
+    margin-bottom: 3px;
+}
+
+.content #avatar {
+    width: 15vw;
+}
+
+.content aside img {
+    margin: 0 3vw;
+    width: 10vw;
+    height: 10vw;
 }
 
 /* FOOTER */
